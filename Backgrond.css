@@ -1,3 +1,16 @@
+.first{
+  width: 500px;
+  height: 400px;
+  
+
+} 
 .backg{
-  background-image:url"I:\driv D pc/Untitled.jpeg"
-}   
+  width: 300px;
+  height: 200px;
+  background-image:url('D:/426334264_249183.jpg');
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  /*background-color:blue;*/
+}
+
+
