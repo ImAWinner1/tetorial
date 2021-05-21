@@ -1,7 +1,8 @@
 .first{
-  width: 500px;
+  width: auto;
   height: 400px;
-  
+  border: 2px solid rgb(4, 0, 255);
+
 
 } 
 .backg{
@@ -10,6 +11,9 @@
   background-image:url('D:/426334264_249183.jpg');
   background-attachment: fixed;
   background-repeat:no-repeat;
+  border: 2px solid red;
+  border-radius:20px;
+  border-right: 6px dotted #656395;
   /*background-color:blue;*/
 }
 
