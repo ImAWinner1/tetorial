@@ -1,7 +1,10 @@
 .first{
   width: auto;
   height: 400px;
-  border: 2px solid rgb(4, 0, 255);
+  border: 6px solid rgb(4, 0, 255);
+  margin: 3px;
+  padding: 2px;
+  box-sizing: border-box;
 
 
 } 
@@ -16,5 +19,17 @@
   border-right: 6px dotted #656395;
   /*background-color:blue;*/
 }
+p{
+  color: blue;
+}
 
+p:hover{
+  color: firebrick !important;
+}
+#colorpara ~ p{
+  color:fuchsia;
+}
+div > p{
+  color: limegreen !important;
+}
 
